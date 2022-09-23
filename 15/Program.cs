@@ -1,10 +1,10 @@
 ﻿Console.WriteLine("Введите число ");
 int day = Convert.ToInt32(Console.ReadLine());
-if (day > 0 && day < 6)
+if (day > 0 & day < 6)
 {
     Console.WriteLine("нет");
 }
-else if (day<8)
+else if (day >= 6 & day < 8)
 {
     Console.WriteLine("да");
 }
